@@ -1,0 +1,595 @@
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0px;
+	margin-top: -1rem;
+	background: url(../images/headerBackground.jpg) no-repeat;
+	background-size: cover;
+}
+
+header {
+	background: white;
+}
+
+
+.mainWidth {
+	width: 100%;
+	max-width: 1256px;
+	margin: auto;
+	position: fixed;
+	top: 7rem;
+	height: 7rem;
+	z-index: 1;
+	background: white;
+	padding: 0rem 0 1rem 0;
+}
+
+.mainWidth:after {
+	display: block;
+	content: " ";
+	clear: both;
+}
+
+.logo {
+	float: left;
+	height: 7.5rem;
+	width: 30.1rem;
+	margin: 1rem 0 0 0;
+	background: url("../images/DSTGrupLogo.png") center no-repeat ;
+	z-index: 3;
+	
+}
+
+nav {
+	float: right;
+	background: #c6c6c6;
+	width: 6rem;
+	height: 6rem;
+	border-radius: 1rem;
+	margin: -7rem 2rem 0rem 0rem;
+	position: relative;
+}
+
+nav:before {
+	display: block;
+	content: " ";
+	border-top: 1.5rem double #00a9ff;
+	border-bottom: 0.5rem solid #00a9ff;
+	position: absolute;
+	width:4rem;
+	height: 2.3rem;
+	top: calc(50% - 1rem);
+	left: calc(50% - 1.8rem);
+	box-sizing: border-box;
+}
+
+
+.nav {
+	position: relative;
+	z-index: 2;
+	right: 13rem;
+	list-style: none;
+	display: none;
+	margin: 8rem 15rem 0rem 0;
+	font: 3rem/4rem TimesNewRoman;
+	}
+
+.nav li {
+	height: 7.9rem;
+		
+}
+
+.nav li a {
+	display: block;
+	position: absolute;
+	width: 21rem;
+	left: -5rem;
+	color: #00a9ff;
+	text-align: center;
+	padding: 1.8rem;
+	background: #c6c6c6;
+	border: 2px solid #00a9ff;
+	border-radius: 10px;
+	text-transform: uppercase;
+}
+
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.connect a {
+	font: 3rem TimesNewRoman;
+	text-transform: uppercase;
+	text-align: center;
+	color: #00a9ff;
+}
+
+.backgroundMain {
+	width: 100%;
+	height: auto;
+	
+}
+
+main {
+	padding: 11rem 0 0 0;
+	background: white;
+	
+	
+}
+
+main:after {
+	display: block;
+	content: " ";
+	clear: both;
+}
+main h1 {
+	padding: 9rem 1rem 0;
+	text-align: center;
+	font: 5.5rem TimesNewRoman;
+	color: #00a9ff;
+}
+
+.indexFirstP {
+	padding: 0 2rem 0;
+	font: 3rem TimesNewRoman;
+	text-indent: 3rem;
+}
+
+.productsFlex {
+	display: flex;
+	flex-flow: row wrap;
+	background: white;
+	position: relative;
+	top: 4rem;
+	justify-content: center;
+}
+
+.productsItem {
+	padding: 2rem;
+	margin: 2rem;
+	border: 1px solid orange;
+	border-radius: 20px;
+	background: wheat;
+	box-shadow: 0px 0px 149px 5px rgba(207,117,20,1); 
+	text-align: center;
+	
+}
+
+.productsItemName {
+	font: 4rem TimesNewRoman;
+	
+}
+
+.productsItemImg {
+	width: 30rem;
+	float: left;
+	
+}
+
+.productsItemUl {
+	float: left;
+	list-style: disc;
+	font: 3rem TimesNewRoman;
+	margin: auto;
+	padding: 0 0 0 6rem;
+	list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slickMain{
+padding: 5rem 0 0 0;
+	width: 50%;
+	height: auto;
+	margin: auto;
+}
+
+.slick-prev{
+	position: absolute;
+	top: 50%;
+	left: -200rem;
+	z-index: 2;
+	}
+.slick-prev:before{
+	display: block;
+	content: " ";
+	height: 4rem;
+	width: 5rem;
+	position: relative;
+	right: -200rem;
+	background: url(../images/leftArrow.png);
+	z-index: 2;
+}
+
+.slick-next {
+	position: absolute;
+	top: 50%;
+	right: 280rem;
+	z-index: 2;
+	}
+
+.slick-next:before{
+	display: block;
+	content: " ";
+	height: 4rem;
+	width: 5rem;
+	position: relative;
+	right: -280rem;
+	background: url(../images/rightArrow.png);
+	z-index: 2;
+	
+}
+
+.vacancy {
+	margin: 0 10rem 2rem 10rem;
+	border-top: 1px solid #00a9ff;
+}
+.vacancy ul {
+	list-style: circle;
+}
+
+.vacancy h2 {
+	font: 2.5em timesNewRoman;
+}
+.vacancy p {
+	font: 2rem timesNewRoman;
+}
+.vacancy ul li {
+	font: 2rem timesNewRoman;
+}
+
+
+.connect {
+	font: 3rem TimesNewRoman;
+	text-transform: uppercase;
+	text-align: center;
+	color: #00a9ff;
+	padding: 0 0 2rem 0;
+	margin: 0 0 2rem 0;
+}
+
+.contacts {
+	padding: 10rem 0 0 0;
+	color: black;
+}
+
+
+form {
+	text-align: center;
+}
+
+form input, form textarea {
+	border: 1px solid grey;
+	border-radius: 6px;
+	height: 4rem;
+	width: calc(100% - 4rem);
+	padding-left: 1rem;
+	margin: 0 0 2rem 0;
+	
+	
+}
+
+textarea {
+	min-height: 8rem;
+	max-height: 15rem;
+}
+
+
+.designFlex:nth-last-child(2) {
+	clear: both;
+}
+
+.designFlex {
+	padding: 11rem 0 2rem 0;
+	text-align: center;
+}
+
+.designFlex img {
+	padding: 0 1rem 1rem 0rem
+}
+
+.submit {
+	font: 3rem TimesNewRoman;
+	padding: 0.5rem 4rem;
+	text-transform: uppercase;
+	border: 1px solid #ff7612;
+	border-radius: 6px;
+	color: white;
+	background: #ff7612;
+	
+}
+
+
+
+.footerDiv {
+	text-align: center;
+}
+.contactsInfo {
+	width: 70%;
+	margin: auto;
+}
+
+.contactsInfo ul {
+	list-style: none;
+	font: 1.8rem TimesNewRoman;
+}
+
+.contactsInfo ul li{
+	position: relative;
+	padding: 0 0 1rem 0;
+}
+.contactsInfo ul li:before {
+	display: block;
+	content: " ";	
+	height: 5rem;
+	width: 5rem;
+	position: absolute;
+	left: -4rem;
+	top: 0.5rem;
+	
+}
+
+.adress:before {
+	background: url(../images/spritesheet2.png) left no-repeat;
+	background-position: -11px -20px;
+}
+
+.phone:before{
+	background: url(../images/spritesheet2.png) left no-repeat;
+	background-position: -140px -20px;
+}
+
+.mail:before{
+	background: url(../images/spritesheet2.png) left no-repeat;
+	background-position: -75px -23px;
+}
+.partnersText{
+	padding: 10rem 2rem 0 2rem;
+	font: 2rem/2rem TimesNewRoman;
+}
+
+.partners {
+	display: flex;
+	flex-flow: row wrap;
+	padding: 0 2rem 0 2rem;
+}
+
+.partnersLogo {
+}
+
+.socialLincs li a{
+	position: relative;
+	left: calc(50% - 45px);
+}
+
+
+footer {
+	
+	margin: auto;
+}
+
+.footerMain {
+	max-width: 1256px;
+	margin: auto;
+	
+}
+
+.footerDiv p {
+	text-transform: uppercase;
+	font: 3.5rem TimesNewRoman;
+	padding: 1rem 0 0 1rem;
+	color: #00a9ff;
+}
+
+.footerDiv ul {
+	list-style: none;
+	
+	padding: 0rem;
+}
+
+.footerDiv ul li a{
+	font: 3rem TimesNewRoman;
+	text-transform: uppercase;
+	color: #00a9ff;
+}
+
+.social {
+	display: block;
+	float: left;
+	height: 5rem;
+	width: 5rem;
+	margin: 0.2rem;
+	background: url(../images/spritesheet.png) grey;
+	background-position: -10px -70px;
+}
+
+.footerDiv:after {
+	display: block;
+	content: " ";
+	clear: both;
+}
+
+
+.fb {
+	background-position: -4px -8px;
+}
+
+
+@media screen and (min-width:1256px){
+	header {
+		max-width: 1256px;
+		margin: auto;
+	}
+	
+	main {
+		max-width: 1256px;
+		margin: auto;
+	}
+	
+	.footerMain {
+		height:50rem;
+		background: white;
+	}
+	
+	.mainWidth {
+		position: relative;
+	}
+	
+	.logo {
+		box-sizing: border-box;
+	}	
+	nav {
+		display: table;
+		background: none;
+		height: auto;
+		border-radius: none;
+		margin: auto;
+		position: relative;
+		left: 0rem;
+		box-sizing: border-box;
+		width: 100%;
+		padding: 0;
+		left: 4rem;
+}
+
+nav:before {
+	display: none;
+	
+}
+
+
+.nav {
+	list-style: none;
+	display: table-row;
+	margin: auto;
+	max-width: 1256px;
+
+	
+	
+	}
+
+.nav li {
+	display: table-cell;
+	height: auto;
+	
+	
+		
+}
+
+.nav li a {
+	color: #00a9ff;
+	text-align: center;
+	padding: 0 0.5rem;
+	background: none;
+	border: none;
+	border-radius: 0px;
+	text-transform: uppercase;
+	position: relative;
+	font: 2.5rem/7rem TimesNewRoman;
+	width: auto;
+	left: -4rem;
+}
+	
+	.nav li a:hover {
+	color: white;
+	background: #ff7612;
+	
+}
+		
+	
+	form {
+		max-width: 768px;
+		margin: auto;
+	}
+	
+	.contacts {
+		width: 70%;
+		float: left;
+	padding: 10rem 0 0 0;
+	color: black;
+		box-sizing: border-box;
+}
+	
+	.contactsInfo {
+		box-sizing: border-box;
+		width: 30%;
+		position: relative;
+		top: 17rem;
+		float: right;
+}
+
+		
+	
+	.products {
+		width: 40rem;
+	}
+	
+	.submit:hover {
+	border: 1px solid #ff7612;
+	color: #ff7612;
+	background: white;
+}
+	.hoverable li a:hover {
+	background: #ff7612;
+		padding: 0 2rem;
+}
+	
+	.footerDiv {
+		box-sizing: border-box;
+		float: left;
+		width: 33%;
+		
+		
+}
+	.productDropdownMenu {
+		display: none;
+		z-index: 5;
+		list-style: none;
+		border: 1px solid black;
+		position: absolute;
+		left: 9.3rem;
+		background: #00a9ff;
+		
+	
+	}
+	
+	.productDropdownMenu li {
+		display: block;
+		z-index: 5;
+	}
+	
+	.productDropdown:hover .productDropdownMenu {
+		display: block;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

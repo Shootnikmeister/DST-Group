@@ -1,0 +1,89 @@
+/* #Tablet (Portrait)
+================================================== */
+/* Note: Design for a width of 768px */
+
+@media only screen and (max-width: 995px) {
+	#main, #header{background-size:100% 7px;}
+	/*indents*/
+	p, .portfolio .featured-thumbnail, .single-portfolio .image-holder, .recent-posts.featured-video .video-holder, .frame{margin-bottom:15px;}
+	.grid_3 .frame{margin-bottom:0;}
+	#header, #slider-wrapper {margin-bottom:30px !important;}
+	.hr {margin:30px 0;}
+	#footer .grid_12{padding-top:30px;}
+	.primary_content_wrap, #footer {padding-bottom:30px;}
+
+	.logo img{width:auto;}
+	.img-box{display:block !important;}
+	h2{font-size:40px !important; line-height:35px !important; letter-spacing:-2px;}
+	.ajax-loader{width:auto !important;}
+	
+	/*-- Slider --------------------------------------------------- */
+	#slider-wrapper .grid_12{padding-bottom:30px;}
+	.flexslider{
+		border:9px solid #fff;
+		background:#fff;
+		box-shadow:0 0 4px #c2c2c2;
+		-webkit-box-shadow:0 0 4px #c2c2c2;
+		
+	}
+	/* Caption style */
+	.flex-caption {
+		width: 40%;
+		font-size:18px;
+		line-height:22px;
+		letter-spacing:0;
+		padding-left:15px;
+	}
+		.flex-caption strong{
+			font-size:90px;
+			line-height:70px;
+			letter-spacing:-7px;
+			margin-left:-7px;
+		}
+	/* Direction Nav */
+	.flex-direction-nav {left:24px; bottom:15px;}
+	/* Control Nav */
+	.flex-control-nav {left:24px; bottom: 15px;}
+	
+	/*-- Portfolio ------------------------------------------------ */
+	.portfolio li{margin:0 20px 30px 0; width:236px;}
+	.portfolio .img-box{height:146px;}
+	.one_column .portfolio .img-box{height:193px; width:380px;}
+	.two_columns .portfolio li{width:364px;}
+	.two_columns .portfolio .img-box{height:176px;}
+	.four_columns .portfolio li{width:172px;}
+	.four_columns .portfolio .img-box{height:112px;}
+	
+	#back-top {display:none !important;}
+	
+	.video iframe{max-height:270px;}
+	
+	/*-- Autor ----------------------------------------------------*/
+	#recent-author-posts .featured-thumbnail{margin:0 20px 20px 0 !important;}
+	
+	/*-- Posts ----------------------------------------------------*/
+	.related-posts li{width:108px;}
+	
+	/*-- Widgets ---------------------------------------------------*/
+	.latestpost time{display:block;}
+	/* Post Cycle */
+	.slides_container .item, .slides_container .testi_item, .slides_container .cycle_item{width:236px;}
+	.social-networks img{width:auto;}
+	
+	/*-- Shortcodes ------------------------------------------------*/
+	.company-address dt {float:none; width:auto; margin-right:0;}
+	.company-address dd {float:none; width:auto;}
+	/*Audio*/
+	.audiojs .scrubber {width: 315px;}
+	
+	/*-- Forms ------------------------------------------------ */
+	.commentlist #commentform textarea {width:365px;}
+	.wpcf7-form input[type="text"] {width:200px;}
+	.wpcf7-form textarea {width:282px; height:250px;}
+	
+}
+
+@media only screen and (min-width: 768px) and (max-width: 995px){
+	/*-- Widgets -------------------------------------------------------------------------------------------*/
+	.social-networks.icons img{width:23px; height:auto;}
+}

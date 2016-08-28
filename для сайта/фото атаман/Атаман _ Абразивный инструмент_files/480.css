@@ -1,0 +1,49 @@
+/* #Mobile (Landscape)
+================================================== */
+/* Note: Design for a width of 480px */
+
+@media only screen and (max-width: 767px) {
+        .thsp-sticky-header {display: none;}
+        .woof_sid_auto_shortcode .woof {width: 100%;}
+	.logo{float:left; width: 50%; margin-bottom:20px;}
+	/*-- Navigations --------------------------------------------- */
+	nav.primary{float:none;}
+	.sf-menu{display:none;}
+	.select-menu{display:block !important;}
+	/*-- Slider --------------------------------------------------- */
+	.flexslider{}
+	.flex-caption {display:none !important;}
+	.flex-direction-nav{bottom:15px;}
+	/*-- Portfolio ------------------------------------------------ */
+	.portfolio li{margin:0 0 30px 0; width:100%; float:none;}
+	.portfolio .img-box{height:270px;}
+	.one_column .portfolio .featured-thumbnail{float:none; margin-right:0px; margin-bottom:15px;}
+	.one_column .portfolio .img-box, .two_columns .portfolio .img-box{height:205px; width:402px;}
+	.two_columns .portfolio li{width:100%;}
+	.four_columns .portfolio li{width:200px; float:left; margin-right:20px;}
+		.four_columns .portfolio li.even{margin-right:0 !important;}
+		.four_columns .portfolio .img-box{height:133px;}
+	/*-- Posts ----------------------------------------------------*/
+	.related-posts li{width:150px;}
+	.older{float:none; margin-bottom:5px;}
+	.newer {float:none;}
+	/*-- Shorcodes ------------------------------------------------*/
+	/*Audio*/
+	.audiojs .scrubber {width: 245px;}
+	/*-- Widgets ---------------------------------------------------*/
+	/* Post Cycle */
+	.slides_container .item, .slides_container .testi_item, .slides_container .cycle_item{width:420px; height:500px;}
+	/*-- Forms -------------------------------------------------- */
+	#commentform input[type="text"], #commentform textarea,
+	.wpcf7-form input[type="text"], .wpcf7-form textarea {width:402px;}
+	.commentlist #commentform input[type="text"], .commentlist #commentform textarea{width:358px;}
+	#header-search form{float:none;}
+		#header-search form:before{
+			display:block;
+			content:'Search: ';
+			font: bold 12px/16px "Times New Roman",Arial,Helvetica,sans-serif;
+			color:#646464;
+			text-transform:uppercase;
+			padding-bottom:3px;
+		}
+}

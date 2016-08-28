@@ -1,0 +1,59 @@
+/* This stylesheet is used to style the public view of the plugin. */
+#thsp-sticky-header {
+	margin-top: -200px;
+	padding: 0px 0px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 99998;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.admin-bar #thsp-sticky-header {
+	top: 32px;
+}
+#thsp-sticky-header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+#thsp-sticky-header-title {
+        width: 20%;
+	float: left;
+	font-size: 22px;
+	line-height: 30px;
+	margin: 5px 0 !important;
+}
+#thsp-sticky-header-title img {
+	display: block;
+	
+	width: 50%;
+}
+#thsp-sticky-header-menu {
+        padding-bottom: 15px;
+	padding-top: 20px;
+    position: relative;
+    z-index: 2;
+    max-width: 760px;
+    float: right;
+    text-align: right;
+	margin: 0 !important;
+}
+#thsp-sticky-header-menu li {
+        padding: 0;
+	display: inline-block;
+	margin: 0 6px !important;
+	font-size: 18px;
+}
+#thsp-sticky-header a {
+	text-decoration: none;
+}
+#thsp-sticky-header li a {
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+	display: inline-block;
+	line-height: 30px;
+        font: 800 17px/22px 'Roboto Condensed', sans-serif;
+}
+#thsp-sticky-header li a:hover {color: grey !important;}
